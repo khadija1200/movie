@@ -7,6 +7,7 @@ public class Movie  implements java.io.Serializable {
      private int copies;
      private String movieType;
      private Actor mainActor;
+     private Integer mainActorId;
 
     public Movie() {
     }
@@ -17,13 +18,25 @@ public class Movie  implements java.io.Serializable {
         this.copies = copies;
         this.movieType = movieType;
     }
-    public Movie(Integer id, String title, int copies, String movieType, Actor mainActor) {
-       this.id = id;
+
+    public Movie( String title, int copies) {
+        this.title = title;
+        this.copies = copies;
+    }
+
+    public Movie( String title, int copies, String movieType, Integer mainActorId) {
        this.title = title;
        this.copies = copies;
        this.movieType = movieType;
-       this.mainActor = mainActor;
+       this.mainActorId = mainActorId;
     }
+    public Movie(Integer id, String title, int copies, String movieType, Actor mainActor) {
+        this.id = id;
+        this.title = title;
+        this.copies = copies;
+        this.movieType = movieType;
+        this.mainActor = mainActor;
+     }
    
     public Integer getId() {
         return this.id;
@@ -48,6 +61,10 @@ public class Movie  implements java.io.Serializable {
     }
     public String getMovieType() {
         return this.movieType;
+    }
+
+    public Integer getMainActorId() {
+        return this.mainActorId;
     }
     
     public void setMovieType(String movieType) {

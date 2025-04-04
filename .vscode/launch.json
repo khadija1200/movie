@@ -1,8 +1,13 @@
 {
     "version": "0.2.0",
     "configurations": [
-
-
+        {
+            "type": "java",
+            "name": "AppEntity1",
+            "request": "launch",
+            "mainClass": "fr.utbm.AppEntity1",
+            "projectName": "movie"
+        },
         {
             "type": "java",
             "name": "AppJdbc",

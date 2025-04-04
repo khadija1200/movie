@@ -1,0 +1,10 @@
+Titre: avatar, Copies: 12
+Titre: Titanic, Copies: 8, Type de film:Romance,Acteur principal:8
+Titre: Demolition man, Copies: 2, Type de film:Action,Acteur principal:5
+Titre: Alien, Copies: 5, Type de film:Fantastique,Acteur principal:7
+Titre: Expendables, Copies: 7, Type de film:Action,Acteur principal:5
+Titre: Lucky luke, Copies: 410, Type de film:Western,Acteur principal:18
+Titre: Star Wars, Copies: 4010, Type de film:Fiction,Acteur principal:17
+Titre: Ocean's Eleven, Copies: 0, Type de film:Action,Acteur principal:15
+Titre: Da Vinci Code , Copies: 2, Type de film:Aventure,Acteur principal:19
+Titre: Pretty Woman, Copies: 5, Type de film:Romance,Acteur principal:13
